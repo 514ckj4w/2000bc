@@ -85,11 +85,10 @@ a:focus {
 }
 
 .frame {
-	padding: 3rem 5vw;
-	text-align: center;
+	padding: 25px 25px;
+	text-align: left;
 	position: relative;
 	z-index: 1500;
-	text-transform: uppercase;
 }
 
 .frame__title {
@@ -344,3 +343,4 @@ a:focus {
 		font-size: 8.75vw;
 	}
 }
+
