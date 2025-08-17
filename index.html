@@ -9,32 +9,10 @@
 		<link rel="stylesheet" type="text/css" href="css/demo8.css" />
 		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 		  <style>
-    /* 1) sensible defaults */
-    *, *::before, *::after { box-sizing: border-box; }
-    html { height: 100%; }
-    body { margin: 0; min-height: 100%; overflow-x: hidden; }
-
-    /* 2) images/media never exceed their containers */
-    img, video, canvas, svg { max-width: 100%; height: auto; display: block; }
-
-    /* 3) long words / code / URLs don’t force wide lines */
-    :where(p, li, h1, h2, h3, h4, h5, h6, blockquote) { overflow-wrap: anywhere; }
-    pre, code, kbd, samp { white-space: pre-wrap; word-break: break-word; }
-
-    /* 4) tables & code blocks scroll internally if truly wider */
-    .is-scrollable { overflow: auto; max-width: 100%; }
-    table { border-collapse: collapse; max-width: 100%; display: block; overflow-x: auto; }
-
-    /* 5) containers never exceed viewport width by mistake */
-    .container { width: min(100%, 1200px); margin-inline: auto; }
-    /* Avoid 100vw on child elements: it includes the scrollbar on some platforms. */
-
-    /* 6) fixed/absolute UI should respect the viewport */
-    .fixed-edge { position: fixed; inset: 0; overflow: auto; }
-
-    /* Optional: prevent scroll chaining/bounce (useful in modals/kiosks) */
-    html, body { overscroll-behavior: none; }
-  </style>
+html, body { height: 100%; overflow: hidden; }
+.main { height: 100dvh; width: 100vw; overflow: hidden; }
+.panel { height: 100%; overflow: auto; } /* put long content in .panel */
+</style>
 	</head>
 	<body>
 		<main>
@@ -49,14 +27,14 @@
 				</symbol>
 			</svg>
 <div class="logo" align="left"><img src="LOG.png" width="200"></div>
-			<div class="frame" align="right">><button class="toggle toggle--on button" id="toggle-btn">
+			<div class="frame" align="right"><button class="toggle toggle--on button" id="toggle-btn">
 					<svg class="toggle__icon toggle__icon--on"><use xlink:href="#icon-soundon"></use></svg>
 					<svg class="toggle__icon toggle__icon--off"><use xlink:href="#icon-soundoff"></use></svg>
 				</button>
 			</div>
 			<div class="content">
 				<h1 class="content__subtitle">Meanwhile at HQ!</h1>
-				<h3 class="content__title"><small>New artists:</small> GLUG. Trotski. Molten Rothschild & T.H.U.D. <small>among others.</small>       			</div>
+				<h3 class="content__title"><small>New artists:</small> GLUG. Trotski. Molten Rothschild & T.H.U.D.</div>
 			</h3>
 				<div class="content__credits"></div>
 			<div class="screen screen--grid intro">
