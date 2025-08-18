@@ -103,13 +103,6 @@ a:focus {
 }
 
 .frame__links a:not(:last-child),
-.frame__demos a:not(:last-child) {
-	margin-right: 1.5rem;
-}
-
-.frame__demos {
-	margin: 1rem 0;
-}
 
 .frame__demo--current,
 .frame__demo--current:hover {
@@ -205,7 +198,7 @@ a:focus {
 }
 
 .content__title {
-	font-size: 3rem;
+	font-size: 2rem;
 	font-weight: inherit;
 	margin: 0;
 	color: var(--color-title);
@@ -297,7 +290,7 @@ a:focus {
 }
 
 .action__line {
-	margin: 2rem 0;
+	font-size: 2rem;
 	cursor: default;
 }
 
@@ -343,6 +336,7 @@ a:focus {
 		font-size: 8.75vw;
 	}
 }
+
 
 
 
