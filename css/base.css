@@ -342,13 +342,6 @@ a:focus {
   z-index: 100; /* sits above the black .screen (z-index 1600) during intro? No, lower than animation canvas */
 }
 
-body {
-  background-color: transparent !important; /* make sure nothing blocks the static image */
-}
-
-.screen {
-  background: transparent !important; /* prevents black overlay from hiding the static image */
-}
 
 
 
