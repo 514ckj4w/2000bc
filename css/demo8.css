@@ -15,7 +15,7 @@
     font-style: normal;
 }
 html {
-  background: url("../img/8ckgnd.jpg") center/cover no-repeat fixed;
+  background: url("../img/grnd.jpg") center/cover no-repeat fixed;
 }
 
 body {
@@ -41,6 +41,7 @@ body {
     font-size: 1.15rem;
     max-width: 42rem;
 }
+
 
 
 
