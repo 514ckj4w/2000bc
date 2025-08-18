@@ -124,11 +124,11 @@ a:focus {
 	pointer-events: auto;
 	background: var(--color-link);
 	color: var(--color-bg);
-	padding: 1.5rem 1.5rem;
+	padding: 1.125rem 1.125rem;
 	font-family: inherit;
-	margin: 3rem;
-	border-radius: 3rem;
-	font-size: 2.5rem;
+	margin: 1.125rem;
+	border-radius: 1.125rem;
+	font-size: 1.125rem;
 }
 
 .button:hover,
@@ -290,7 +290,7 @@ a:focus {
 }
 
 .action__line {
-	font-size: 3rem;
+	font-size: 1.125rem;
 	cursor: default;
 }
 
@@ -336,6 +336,7 @@ a:focus {
 		font-size: 8.75vw;
 	}
 }
+
 
 
 
