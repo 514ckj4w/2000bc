@@ -152,7 +152,6 @@ a:focus {
 	display: block;
 	width: 2.25rem;
 	height: 2.25rem;
-	fill: currentColor;
 }
 
 .toggle__icon--off {
@@ -335,6 +334,7 @@ a:focus {
 		font-size: 8.75vw;
 	}
 }
+
 
 
 
