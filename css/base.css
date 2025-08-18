@@ -337,9 +337,9 @@ a:focus {
 
 .bg-static {
   position: fixed;
-  inset: 0; /* top:0; left:0; bottom:0; right:0 */
-  background: url('../img/your-static.jpg') center/cover no-repeat fixed;
-  z-index: 0; /* sits behind everything */
+  inset: 0;
+  background: url('../img/bckgnd.jpg') center/cover no-repeat fixed;
+  z-index: 100; /* sits above the black .screen (z-index 1600) during intro? No, lower than animation canvas */
 }
 
 body {
@@ -349,6 +349,7 @@ body {
 .screen {
   background: transparent !important; /* prevents black overlay from hiding the static image */
 }
+
 
 
 
