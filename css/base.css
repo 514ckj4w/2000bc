@@ -126,9 +126,9 @@ a:focus {
 	color: var(--color-bg);
 	padding: 1rem 1rem;
 	font-family: inherit;
-	margin: 2rem;
+	margin: 3rem;
 	border-radius: 3rem;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
 .button:hover,
@@ -336,6 +336,7 @@ a:focus {
 		font-size: 8.75vw;
 	}
 }
+
 
 
 
