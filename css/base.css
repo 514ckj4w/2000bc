@@ -129,7 +129,7 @@ a:focus {
 	padding: 2rem 2rem;
 	font-family: inherit;
 	margin: 1.125rem;
-	border-radius: 5rem;
+	border-radius: 12rem;
 	font-size: 1.125rem;
 }
 
@@ -339,6 +339,7 @@ a:focus {
 		font-size: 8.75vw;
 	}
 }
+
 
 
 
