@@ -86,7 +86,8 @@ a:focus {
 }
 
 .frame {
-	padding: 0px 0px;
+	margin: 0 0 0rem;
+	padding: 0 0 0rem;
 	text-align: left;
 	position: relative;
 	z-index: 1500;
@@ -95,6 +96,7 @@ a:focus {
 .frame__title {
 	font-size: inherit;
 	margin: 0 0 0rem;
+	padding: 0 0 0rem;
 	font-weight: inherit;
 }
 
@@ -337,6 +339,7 @@ a:focus {
 		font-size: 8.75vw;
 	}
 }
+
 
 
 
