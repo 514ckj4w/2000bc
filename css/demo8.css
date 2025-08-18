@@ -24,7 +24,7 @@
 }
 body {
     font-family: 'kionaregular';
-    background-image: url("../img/8.png");
+    background-image: url("../img/8.jpg");
     font-weight: 500;
     font-size: 0.85rem;
 	--color-link: #FFD700;
@@ -44,17 +44,8 @@ body {
     font-size: 1.15rem;
     max-width: 42rem;
 }
-.bg-static {
-  position: fixed;
-  inset: 0;
-  background: url('../img/grnd.jpg') center/cover no-repeat fixed;
-  z-index: 0;
-}
 
-/* override opaque backgrounds from base CSS */
-body {
-  background-color: transparent !important;
-}
+
 
 
 
