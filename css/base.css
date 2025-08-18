@@ -311,7 +311,6 @@ a:focus {
 		left: 0;
 		width: 100%;
 		display: grid;
-		padding: 2.5rem 4rem;
 		grid-template-columns: auto 1fr auto auto auto;
 		align-content: space-between;
 		align-items: center;
@@ -329,7 +328,6 @@ a:focus {
 		pointer-events: auto;
 	}
 	.toggle {
-		margin: 0 0 0 4rem;
 	}
 	.content {
 		height: 100vh;
@@ -339,6 +337,7 @@ a:focus {
 		font-size: 8.75vw;
 	}
 }
+
 
 
 
