@@ -86,7 +86,7 @@ a:focus {
 }
 
 .frame {
-	padding: 15px 25px;
+	padding: 0px 0px;
 	text-align: left;
 	position: relative;
 	z-index: 1500;
@@ -343,6 +343,7 @@ a:focus {
 		font-size: 8.75vw;
 	}
 }
+
 
 
 
