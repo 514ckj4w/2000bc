@@ -22,12 +22,12 @@ body {
     font-size: 0.85rem;
 	--color-link: #FFD700;
 }
-body::before {
-  content: "";
+/* static image layer */
+.bg-static {
   position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: url("8ckgnd.jpg") center/cover no-repeat;
-  z-index: -1; /* stays behind everything */
+  inset: 0;
+  background: url("../8ckgnd.jpg") center/cover no-repeat;
+  z-index: 0;
 }
 .screen {
 	text-transform: uppercase;
@@ -44,6 +44,7 @@ body::before {
     font-size: 1.15rem;
     max-width: 42rem;
 }
+
 
 
 
