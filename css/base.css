@@ -86,7 +86,7 @@ a:focus {
 }
 
 .frame {
-	padding: 25px 25px;
+	padding: 15px 25px;
 	text-align: left;
 	position: relative;
 	z-index: 1500;
@@ -131,11 +131,11 @@ a:focus {
 	pointer-events: auto;
 	background: var(--color-link);
 	color: var(--color-bg);
-	padding: 2rem 2rem;
+	padding: 1rem 1rem;
 	font-family: inherit;
-	margin: 2rem;
-	border-radius: 3rem;
-	font-size: 2rem;
+	margin: 3rem;
+	border-radius: 2rem;
+	font-size: 3rem;
 }
 
 .button:hover,
@@ -153,8 +153,8 @@ a:focus {
 .toggle__icon {
 	position: relative;
 	display: block;
-	width: 2rem;
-	height: 2rem;
+	width: 1.5rem;
+	height: 1.5rem;
 	fill: currentColor;
 }
 
@@ -343,6 +343,7 @@ a:focus {
 		font-size: 8.75vw;
 	}
 }
+
 
 
 
