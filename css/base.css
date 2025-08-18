@@ -153,9 +153,8 @@ a:focus {
 .toggle__icon {
 	position: relative;
 	display: block;
-	width: 1.6rem;
-	height: 1.6rem;
-	margin: 0 auto;
+	width: 3rem;
+	height: 3rem;
 	fill: currentColor;
 }
 
@@ -344,5 +343,6 @@ a:focus {
 		font-size: 8.75vw;
 	}
 }
+
 
 
