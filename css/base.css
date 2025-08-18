@@ -131,11 +131,11 @@ a:focus {
 	pointer-events: auto;
 	background: var(--color-link);
 	color: var(--color-bg);
-	padding: 0.5rem 2rem;
+	padding: 2rem 2rem;
 	font-family: inherit;
 	margin: 2rem;
-	border-radius: 1.25rem;
-	font-size: 1rem;
+	border-radius: 3rem;
+	font-size: 2rem;
 }
 
 .button:hover,
@@ -153,8 +153,8 @@ a:focus {
 .toggle__icon {
 	position: relative;
 	display: block;
-	width: 3rem;
-	height: 3rem;
+	width: 2rem;
+	height: 2rem;
 	fill: currentColor;
 }
 
@@ -343,6 +343,7 @@ a:focus {
 		font-size: 8.75vw;
 	}
 }
+
 
 
 
