@@ -124,10 +124,10 @@ a:focus {
 	pointer-events: auto;
 	background: var(--color-link);
 	color: var(--color-bg);
-	padding: 1.125rem 1.125rem;
+	padding: 2rem 2rem;
 	font-family: inherit;
 	margin: 1.125rem;
-	border-radius: 1.125rem;
+	border-radius: 5rem;
 	font-size: 1.125rem;
 }
 
@@ -337,6 +337,7 @@ a:focus {
 		font-size: 8.75vw;
 	}
 }
+
 
 
 
