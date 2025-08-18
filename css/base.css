@@ -87,7 +87,7 @@ a:focus {
 
 .frame {
 	margin: 0 0 0rem;
-	padding: 0 0 0rem;
+	padding: 10rem;
 	text-align: left;
 	position: relative;
 	z-index: 1500;
@@ -96,7 +96,7 @@ a:focus {
 .frame__title {
 	font-size: inherit;
 	margin: 0 0 0rem;
-	padding: 0 0 0rem;
+	padding: 10rem;
 	font-weight: inherit;
 }
 
@@ -307,8 +307,8 @@ a:focus {
 	.frame {
 		position: absolute;
 		text-align: left;
-		top: 0;
-		left: 0;
+		top: 10;
+		left: 10;
 		width: 100%;
 		display: grid;
 		grid-template-columns: auto 1fr auto auto auto;
@@ -316,13 +316,10 @@ a:focus {
 		align-items: center;
 	}
 	.frame__title {
-		margin: 0 5rem 0 0;
 	}
 	.frame__demos {
-		margin: 0;
 	}
 	.frame__links {
-		padding: 0;
 	}
 	.frame a {
 		pointer-events: auto;
@@ -337,6 +334,7 @@ a:focus {
 		font-size: 8.75vw;
 	}
 }
+
 
 
 
