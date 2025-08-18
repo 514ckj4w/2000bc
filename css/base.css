@@ -144,6 +144,7 @@ a:focus {
 }
 
 .toggle__icon {
+	padding: 0px 0px;
 	position: relative;
 	display: block;
 	width: 1.5rem;
@@ -336,6 +337,7 @@ a:focus {
 		font-size: 8.75vw;
 	}
 }
+
 
 
 
