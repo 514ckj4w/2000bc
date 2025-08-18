@@ -2,6 +2,7 @@
 *::after,
 *::before {
 	box-sizing: border-box;
+	background-image: url(../img/8ckgnd.jpg);
 }
 
 :root {
@@ -22,7 +23,6 @@ body {
 	color: var(--color-text);
 	background-color: var(--color-bg);
 	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
-	 background-image: url(../img/8ckgnd.jpg);
 	background-size: cover;
 	background-position: 50% 50%;
 	height: 100dvh; width: 100vw; overflow: hidden;
@@ -335,6 +335,7 @@ a:focus {
 		font-size: 8.75vw;
 	}
 }
+
 
 
 
