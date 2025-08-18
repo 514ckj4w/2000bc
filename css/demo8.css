@@ -14,6 +14,9 @@
     font-weight: normal;
     font-style: normal;
 }
+html {
+  background: url("../img/8ckgnd.jpg") center/cover no-repeat fixed;
+}
 
 body {
     font-family: 'kionaregular';
@@ -23,13 +26,6 @@ body {
 	--color-link: #FFD700;
 }
 
-body::before {
-  content: "";
-  position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: url("../img/8ckgnd.jpg") center/cover no-repeat;
-  z-index: -1;
-}
 .screen {
 	text-transform: uppercase;
 }
@@ -45,6 +41,7 @@ body::before {
     font-size: 1.15rem;
     max-width: 42rem;
 }
+
 
 
 
