@@ -44,15 +44,33 @@ body {
     font-size: 1.15rem;
     max-width: 42rem;
 }
-.static-bg {
+/* Static still image behind everything */
+.static-bg{
   position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
+  inset: 0;
   background: url("../img/grnd.jpg") center/cover no-repeat;
-  z-index: 0; /* stays behind animation */
+  z-index: 0;               /* base layer */
 }
 
+/* Mirror the BODY's animated background onto a front overlay.
+   Your script keeps writing to body.style.background* as before.
+   We "inherit" those values into this overlay so it sits ABOVE the static image. */
+body::before{
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;               /* above .static-bg, below your content */
+  background-image: inherit;
+  background-position: inherit;
+  background-size: inherit;
+  background-repeat: inherit;
+  background-attachment: inherit;
+  animation: inherit;
+  background-color: transparent !important; /* don’t carry black through */
+}
 
+/* Do NOT change .screen or body’s background-color here. Leave them as-is. */
 
 
 
