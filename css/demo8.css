@@ -17,7 +17,11 @@
 
 body {
     font-family: 'kionaregular';
-    background-image: url(../img/8.jpg);
+  background-image: url("8ckgnd.jpg"), url("../img/8.png");
+  background-repeat: no-repeat, repeat; /* adjust as needed */
+  background-position: center center, top left;
+  background-size: cover, cover;
+  background-attachment: fixed, scroll; 
     font-weight: 500;
     font-size: 0.85rem;
 	--color-link: #FFD700;
@@ -38,6 +42,7 @@ body {
     font-size: 1.15rem;
     max-width: 42rem;
 }
+
 
 
 
