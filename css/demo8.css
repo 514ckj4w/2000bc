@@ -20,7 +20,7 @@ body {
     background-image: url(../img/8.jpg);
     font-weight: 500;
     font-size: 0.85rem;
-    --color-link: #ffffff;
+    --color-link: #87fa14;
 }
 
 .screen {
@@ -38,6 +38,7 @@ body {
     font-size: 1.15rem;
     max-width: 42rem;
 }
+
 
 
 
