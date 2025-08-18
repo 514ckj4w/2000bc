@@ -47,7 +47,7 @@ body {
 .bg-static {
   position: fixed;
   inset: 0;
-  background: url('../img/your-static.jpg') center/cover no-repeat fixed;
+  background: url('../img/grnd.jpg') center/cover no-repeat fixed;
   z-index: 0;
 }
 
@@ -59,6 +59,7 @@ body {
 .screen {
   background: transparent !important;
 }
+
 
 
 
