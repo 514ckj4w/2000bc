@@ -45,15 +45,19 @@ body {
   z-index: 0;
 }
 
+/* OVERRIDE base.css for this page only */
 canvas {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw !important;
   height: 100vh !important;
+  transform: none !important;      /* <-- cancels the -50% translate from base.css */
   z-index: 1;
+  background: transparent !important;
   display: block;
 }
+
 
 
 
