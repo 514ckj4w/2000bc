@@ -38,33 +38,28 @@ body {
     max-width: 42rem;
 }
 
-/* Static still image behind everything */
-.static-bg{
+/* static base image */
+.static-bg {
   position: fixed;
   inset: 0;
   background: url("../img/grnd.jpg") center/cover no-repeat;
-  z-index: 0;               /* base layer */
+  z-index: 0;
 }
 
-/* Mirror the BODY's animated background onto a front overlay.
-   Your script keeps writing to body.style.background* as before.
-   We "inherit" those values into this overlay so it sits ABOVE the static image. */
-body::before{
+/* layer that JS will animate instead of <body> */
+body::before {
   content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
-  z-index: 1;               /* above .static-bg, below your content */
-  background-image: inherit;
-  background-position: inherit;
-  background-size: inherit;
-  background-repeat: inherit;
-  background-attachment: inherit;
-  animation: inherit;
-  background-color: transparent !important; /* don’t carry black through */
+  z-index: 1; /* above static background, below text */
+  background: transparent no-repeat center/cover;
 }
 
-/* Do NOT change .screen or body’s background-color here. Leave them as-is. */
+/* body itself stays just black */
+body {
+  background: #000 !important;
+}
 
 
 
