@@ -38,7 +38,6 @@ body {
     max-width: 42rem;
 }
 
-/* static base image */
 .static-bg {
   position: fixed;
   inset: 0;
@@ -46,20 +45,14 @@ body {
   z-index: 0;
 }
 
-/* layer that JS will animate instead of <body> */
-body::before {
-  content: "";
-  position: fixed;
+canvas {
+  position: fixed;   /* or absolute if you prefer */
   inset: 0;
-  pointer-events: none;
-  z-index: 1; /* above static background, below text */
-  background: transparent no-repeat center/cover;
+  width: 100%;
+  height: 100%;
+  z-index: 1;        /* sits above static image */
 }
 
-/* body itself stays just black */
-body {
-  background: #000 !important;
-}
 
 
 
