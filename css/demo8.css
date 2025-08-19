@@ -44,13 +44,6 @@ body {
     font-size: 1.15rem;
     max-width: 42rem;
 }
-/* Static still image behind everything */
-.static-bg{
-  position: fixed;
-  inset: 0;
-  background: url("../img/grnd.jpg") center/cover no-repeat;
-  z-index: 0;               /* base layer */
-}
 
 /* Mirror the BODY's animated background onto a front overlay.
    Your script keeps writing to body.style.background* as before.
@@ -60,7 +53,10 @@ body::before{
   position: fixed;
   inset: 0;
   pointer-events: none;
-  z-index: 1;               /* above .static-bg, below your content */
+  position: fixed;
+  inset: 0;
+  background: url("../img/grnd.jpg") center/cover no-repeat;
+  z-index: 0;               /* base layer */
   background-image: inherit;
   background-position: inherit;
   background-size: inherit;
@@ -71,6 +67,7 @@ body::before{
 }
 
 /* Do NOT change .screen or body’s background-color here. Leave them as-is. */
+
 
 
 
