@@ -36,10 +36,12 @@ const s = (p) => {
   }
 
 p.draw = () => {
-  p.clear();            // make canvas transparent instead of black
-  fft.analyze();        // your original line
-  // ... rest of your code
-}
+  p.clear();                  // clears to transparent
+  p.background(0);            // black background to check visibility
+  fft.analyze();              // your audio analysis
+  p.fill(255, 0, 0);
+  p.rect(-p.width/2, -p.height/2, p.width, p.height); // background rect
+};
 
   const bass    = fft.getEnergy("bass");
   const treble  = fft.getEnergy("treble");
@@ -74,6 +76,7 @@ p.draw = () => {
 
 
 new p5(s)
+
 
 
 
