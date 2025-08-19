@@ -16,7 +16,9 @@ const s = (p) => {
       })
 
       p.pixelDensity(1)
-      p.createCanvas(p.windowWidth, p.windowHeight, p.WEBGL)
+      p.createCanvas(p.windowWidth, p.windowHeight, p.WEBGL);
+      p.setAttributes('alpha', true);   // allow transparent clearing in WEBGL
+      p.noStroke();
 
       toggleBtn = document.querySelector('#toggle-btn')
       toggleBtn.addEventListener('click', () => {
@@ -34,7 +36,10 @@ const s = (p) => {
   }
 
 p.draw = () => {
-  fft.analyze();
+  p.clear();            // make canvas transparent instead of black
+  fft.analyze();        // your original line
+  // ... rest of your code
+}
 
   const bass    = fft.getEnergy("bass");
   const treble  = fft.getEnergy("treble");
@@ -50,7 +55,7 @@ p.draw = () => {
   demo8Shader.setUniform('u_mid', mapMid);
 
   p.clear(); // <<< makes canvas background transparent
-  p.rect(0, 0, p.width, p.height);
+  p.rect(-p.width/2, -p.height/2, p.width, p.height);
 };
 
   p.windowResized = () => {
@@ -69,6 +74,7 @@ p.draw = () => {
 
 
 new p5(s)
+
 
 
 
