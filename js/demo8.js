@@ -33,24 +33,25 @@ const s = (p) => {
       demo8Shader.setUniform('u_tResolution', [img.width, img.height])
   }
 
-  p.draw = () => {
-    fft.analyze()
+p.draw = () => {
+  fft.analyze();
 
-    const bass    = fft.getEnergy("bass")
-    const treble  = fft.getEnergy("treble")
-    const mid     = fft.getEnergy("mid")
+  const bass    = fft.getEnergy("bass");
+  const treble  = fft.getEnergy("treble");
+  const mid     = fft.getEnergy("mid");
 
-    const mapBass     = p.map(bass, 0, 255, 5, 10.0)
-    const mapTremble  = p.map(treble, 0, 255, 0, 0.0)
-    const mapMid      = p.map(mid, 0, 255, 0.0, 0.1)
+  const mapBass     = p.map(bass, 0, 255, 5, 10.0);
+  const mapTremble  = p.map(treble, 0, 255, 0, 0.0);
+  const mapMid      = p.map(mid, 0, 255, 0.0, 0.1);
 
-    demo8Shader.setUniform('u_time', p.frameCount / 20)
-    demo8Shader.setUniform('u_bass', mapBass)
-    demo8Shader.setUniform('u_tremble', mapTremble)
-    demo8Shader.setUniform('u_mid', mapMid)
+  demo8Shader.setUniform('u_time', p.frameCount / 20);
+  demo8Shader.setUniform('u_bass', mapBass);
+  demo8Shader.setUniform('u_tremble', mapTremble);
+  demo8Shader.setUniform('u_mid', mapMid);
 
-    p.rect(0,0, p.width, p.height)
-  }
+  p.clear(); // <<< makes canvas background transparent
+  p.rect(0, 0, p.width, p.height);
+};
 
   p.windowResized = () => {
     p.resizeCanvas(p.windowWidth, p.windowHeight)
@@ -68,6 +69,7 @@ const s = (p) => {
 
 
 new p5(s)
+
 
 
 
