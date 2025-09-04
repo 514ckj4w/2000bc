@@ -23,6 +23,7 @@ body {
 	--color-link: #ffffff;
 }
 .screen {
+	text-transform: none;
 }
 
 .content__title {
@@ -56,6 +57,7 @@ canvas {
   background: transparent !important;
   display: block;
 }
+
 
 
 
