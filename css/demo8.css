@@ -27,7 +27,7 @@ body {
 }
 
 .content__title {
-    font-size: 8vw;
+    font-size: 7vw;
     font-weight: 900;
 }
 
@@ -57,6 +57,7 @@ canvas {
   background: transparent !important;
   display: block;
 }
+
 
 
 
