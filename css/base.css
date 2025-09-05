@@ -132,6 +132,7 @@ a:focus {
 	margin: 1.125rem;
 	border-radius: 12rem;
 	font-size: 1.5rem;
+	text-transform: uppercase;
 }
 
 .button:hover,
@@ -334,6 +335,7 @@ a:focus {
 		font-size: 8.75vw;
 	}
 }
+
 
 
 
