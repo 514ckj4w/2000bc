@@ -13,7 +13,7 @@ body {
 	--color-text: #fff;
 	--color-bg: #000;
 	--color-link: #FF0000;
-	--color-link-hover: #fff;
+	--color-link-hover: #FF0000;
 	--anim-time: 3s;
 	--anim-delay-first: 1s;
 	--anim-delay-second: calc(var(--anim-delay-first) + var(--anim-time));
@@ -334,6 +334,7 @@ a:focus {
 		font-size: 8.75vw;
 	}
 }
+
 
 
 
