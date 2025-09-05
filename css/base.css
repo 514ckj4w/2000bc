@@ -131,6 +131,7 @@ a:focus {
 	font-family: inherit;
 	margin: 1.125rem;
 	border-radius: 12rem;
+	font-size: 1.5rem;
 }
 
 .button:hover,
@@ -293,6 +294,7 @@ a:focus {
 
 .action__line {
 	cursor: default;
+    font-size: 1.5rem;
 }
 
 .start-anim .action {
@@ -332,6 +334,7 @@ a:focus {
 		font-size: 8.75vw;
 	}
 }
+
 
 
 
