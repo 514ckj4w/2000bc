@@ -42,9 +42,9 @@ body {
   position: fixed;
   inset: 0;
   top: -50%; left: -50%;
-  width: 100%; height: 300%; /* expand to cover rotation */
+  width: 250%; height: 250%; /* expand to cover rotation */
   background: url("../img/grnd.gif") repeat;
-  transform: rotate(90deg);
+  transform: rotate(45deg);
   transform-origin: center center;
   z-index: 0;
 }
@@ -61,6 +61,7 @@ canvas {
   background: transparent !important;
   display: block;
 }
+
 
 
 
