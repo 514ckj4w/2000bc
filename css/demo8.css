@@ -23,12 +23,13 @@ body {
 	--color-link: #ffffff;
 }
 .screen {
-    text-transform: uppercase;
+text-transform: none;
 }
 
 .content__title {
     font-size: 7vw;
     font-weight: 900;
+	text-transform: none;
 }
 
 .content__credits {
@@ -36,6 +37,7 @@ body {
     letter-spacing: 1px;
     font-size: 1.15rem;
     max-width: 42rem;
+	text-transform: none;
 }
 
 .static-bg {
@@ -57,6 +59,7 @@ canvas {
   background: transparent !important;
   display: block;
 }
+
 
 
 
