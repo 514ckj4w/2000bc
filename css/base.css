@@ -150,8 +150,8 @@ a:focus {
 	padding: 0px 0px;
 	position: relative;
 	display: block;
-	width: 1.9rem;
-	height: 1.9rem;
+	width: 2rem;
+	height: 2rem;
 }
 
 .toggle__icon--off {
@@ -203,7 +203,7 @@ a:focus {
 .content__title {
 	font-size: 2rem;
 	font-weight: inherit;
-	margin: 5;
+	margin: 3;
 	color: var(--color-title);
 }
 
@@ -334,6 +334,7 @@ a:focus {
 		font-size: 8.75vw;
 	}
 }
+
 
 
 
