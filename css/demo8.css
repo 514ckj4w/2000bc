@@ -41,7 +41,7 @@ body {
 .static-bg {
   position: fixed;
   inset: 0;
-  background: url("../img/grnd.gif") repeat;
+  background: url("../img/grnd.gif") repeat repeat;
   transform: rotate(45deg); /* tilt the image */
   z-index: 0;
 }
@@ -58,6 +58,7 @@ canvas {
   background: transparent !important;
   display: block;
 }
+
 
 
 
