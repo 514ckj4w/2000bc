@@ -150,8 +150,8 @@ a:focus {
 	padding: 0px 0px;
 	position: relative;
 	display: block;
-	width: 3rem;
-	height: 3rem;
+	width: 2.5rem;
+	height: 2.5rem;
 }
 
 .toggle__icon--off {
@@ -177,7 +177,7 @@ a:focus {
 .content {
 	display: flex;
 	flex-direction: column;
-	padding: 0 1.5rem;
+	padding: 1.5rem;
 	width: 100vw;
 	height: calc(100vh - 13rem);
 	position: relative;
@@ -334,6 +334,7 @@ a:focus {
 		font-size: 8.75vw;
 	}
 }
+
 
 
 
