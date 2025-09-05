@@ -203,7 +203,7 @@ a:focus {
 .content__title {
 	font-size: 2rem;
 	font-weight: inherit;
-	margin: 3;
+	margin: 1;
 	color: var(--color-title);
 }
 
@@ -334,6 +334,7 @@ a:focus {
 		font-size: 8.75vw;
 	}
 }
+
 
 
 
